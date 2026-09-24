@@ -10,10 +10,10 @@ const manrope = Manrope({ subsets: ["latin"], display: "swap", variable: "--font
 export const metadata: Metadata = {
   metadataBase: new URL("https://fomura.com"),
   title: { default: "Fomura | Desarrollo Comercial", template: "%s | Fomura" },
-  description: "Fomura ayuda a empresas, negocios y emprendedores a conseguir clientes y desarrollar su capacidad comercial mediante ventas, sistemas y formación",
+  description: "Fomura ayuda a empresas, negocios y emprendedores a conseguir clientes y desarrollar su capacidad comercial mediante ventas, sistemas y formación en ventas",
   alternates: { canonical: "/" },
-  openGraph: { title: "Fomura | Desarrollo Comercial", description: "Fomura ayuda a empresas, negocios y emprendedores a conseguir clientes y desarrollar su capacidad comercial mediante ventas, sistemas y formación", url: "https://fomura.com", siteName: "Fomura", locale: "es_AR", type: "website", images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Fomura, la fórmula de tu éxito comercial" }] },
-  twitter: { card: "summary_large_image", title: "Fomura | Desarrollo Comercial", description: "Fomura ayuda a desarrollar capacidad comercial mediante ventas, sistemas y formación", images: ["/og-image.png"] },
+  openGraph: { title: "Fomura | Desarrollo Comercial", description: "Fomura ayuda a empresas, negocios y emprendedores a conseguir clientes y desarrollar su capacidad comercial mediante ventas, sistemas y formación en ventas", url: "https://fomura.com", siteName: "Fomura", locale: "es_AR", type: "website", images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Fomura. La fórmula de tu éxito comercial" }] },
+  twitter: { card: "summary_large_image", title: "Fomura | Desarrollo Comercial", description: "Ventas, sistemas comerciales y formación en ventas para desarrollar capacidad comercial", images: ["/og-image.png"] },
   keywords: ["desarrollo comercial", "adquisición de clientes", "ventas", "sistemas comerciales", "formación comercial", "capacitación en ventas", "generación de clientes"],
   authors: [{ name: "Fomura" }],
 };
