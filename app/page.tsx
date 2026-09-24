@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
 import { Problem } from "@/components/sections/Problem";
-import { Solution } from "@/components/sections/Solution";
-import { Process } from "@/components/sections/Process";
-import { Capabilities } from "@/components/sections/Capabilities";
-import { Principles } from "@/components/sections/Principles";
+import { FomuraIntro } from "@/components/sections/FomuraIntro";
+import { BusinessUnits } from "@/components/sections/BusinessUnits";
+import { FomuraCycle, OperatingModel } from "@/components/sections/FomuraCycle";
+import { CustomerValue } from "@/components/sections/CustomerValue";
+import { WhoWeHelp } from "@/components/sections/WhoWeHelp";
+import { WhyFomura } from "@/components/sections/WhyFomura";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 
 export const metadata: Metadata = {
-  title: "Fomura | Desarrollo comercial B2B",
-  description: "Fomura diseña y construye sistemas comerciales para que empresas B2B consigan clientes, vendan mejor y crezcan con más claridad",
+  title: "Fomura | Desarrollo Comercial",
+  description: "Fomura ayuda a empresas, negocios y emprendedores a conseguir clientes y desarrollar su capacidad comercial mediante ventas, sistemas y formación",
   alternates: { canonical: "/" },
 };
 
 export default function Home() {
-  return <main><Hero /><Problem /><Solution /><Process /><Capabilities /><Principles /><FinalCTA /></main>;
+  return <main><Hero /><Problem /><FomuraIntro /><BusinessUnits /><FomuraCycle /><OperatingModel /><CustomerValue /><WhyFomura /><WhoWeHelp /><FinalCTA /></main>;
 }

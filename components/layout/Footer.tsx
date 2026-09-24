@@ -20,7 +20,7 @@ export function Footer() {
           </nav>
           <div className="footer-links"><Link className="footer-contact" href="/contacto"><ContactIcon type="mail" /> Iniciemos una conversación</Link><a href="mailto:hola@fomura.com"><ContactIcon type="mail" /> hola@fomura.com</a><a href="tel:+5492922432839"><ContactIcon type="phone" /> +54 9 2922 43 2839</a><a href="https://instagram.com/fomura.bb" target="_blank" rel="noreferrer"><ContactIcon type="instagram" /> @fomura.bb</a></div>
         </div>
-        <div className="footer-bottom"><span>© {new Date().getFullYear()} Fomura</span><span>Desarrollo comercial B2B</span></div>
+        <div className="footer-bottom"><span>© {new Date().getFullYear()} Fomura</span><span>Desarrollo comercial</span></div>
       </Container>
     </footer>
   );

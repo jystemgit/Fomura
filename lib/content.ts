@@ -5,78 +5,69 @@ export const navItems = [
   { label: "Contacto", href: "/contacto" },
 ];
 
-export const pillars = [
+export const businessUnits = [
   {
-    title: "Adquisición",
-    description: "Generamos oportunidades comerciales calificadas",
-    detail: "Canales y prospección pensados para producir conversaciones de negocio",
+    title: "Vender",
+    headline: "Vendemos tu producto por vos",
+    description: "Vos tenés el producto. Nosotros desarrollamos la venta.",
+    detail: "Analizamos la oferta, preparamos el abordaje comercial y ejecutamos prospección, contacto, seguimiento, negociación, cierre y medición.",
+    status: "Operación actual",
+    cta: "Quiero vender más",
+    href: "/contacto?interes=vender",
   },
   {
-    title: "Ventas",
-    description: "Mejoramos el proceso que convierte oportunidades en clientes",
-    detail: "Claridad en cada etapa, seguimiento consistente y mejores herramientas de venta",
+    title: "Sistematizar",
+    headline: "Mejoramos tus sistemas comerciales",
+    description: "Convertimos la actividad comercial en una estructura más ordenada, medible, repetible y mejorable.",
+    detail: "Trabajamos sobre diagnóstico, procesos, CRM, automatización, documentación, métricas y optimización para desarrollar capacidad.",
+    status: "Unidad en desarrollo",
+    cta: "Mejorar mi sistema comercial",
+    href: "/contacto?interes=sistematizar",
   },
   {
-    title: "Sistemas",
-    description: "Construimos la infraestructura que sostiene la operación comercial",
-    detail: "Procesos, CRM, automatizaciones y datos conectados para ganar capacidad",
-  },
-  {
-    title: "Desarrollo",
-    description: "Identificamos y ejecutamos nuevas oportunidades de crecimiento",
-    detail: "Nuevos canales, alianzas y mercados para llevar la propuesta más lejos",
+    title: "Formar",
+    headline: "Capacitamos y formamos en ventas",
+    description: "Desarrollamos personas y equipos capaces de vender profesionalmente.",
+    detail: "Conocimiento, práctica y feedback para empresas que quieren formar vendedores y personas que quieren desarrollar una capacidad profesional.",
+    status: "Unidad en desarrollo",
+    cta: "Quiero formarme",
+    href: "/contacto?interes=formar",
   },
 ];
 
-export const processSteps = [
-  { title: "Diagnóstico", description: "Entendemos el negocio, la oferta, el mercado y el sistema actual" },
-  { title: "Estrategia", description: "Identificamos cuellos de botella, oportunidades y prioridades" },
-  { title: "Implementación", description: "Construimos procesos, activos, tecnología y canales" },
-  { title: "Optimización", description: "Medimos, aprendemos y mejoramos continuamente" },
-];
-
-export const capabilities = [
-  "Adquisición de clientes",
-  "Generación de oportunidades",
-  "Prospección y outbound",
-  "Inbound comercial",
-  "Procesos de ventas",
-  "Calificación y seguimiento",
-  "CRM y pipeline",
-  "Automatización",
-  "Dashboards comerciales",
-  "Activos de venta",
-  "Alianzas y partnerships",
-  "Expansión de mercado",
-];
+export const salesActivities = ["Análisis", "Preparación", "Prospección", "Contacto", "Seguimiento", "Negociación", "Cierre", "Medición"];
+export const commercialCycle = ["Vender", "Generar resultados", "Medir", "Aprender", "Sistematizar", "Formar", "Escalar"];
+export const operatingModel = ["Adquirir", "Vender", "Entregar", "Medir", "Aprender", "Sistematizar"];
+export const thinkingModel = ["Plan", "Acción", "Medición", "Aprendizaje", "Ajuste"];
 
 export const principles = [
-  { title: "Comercial primero", description: "Partimos del objetivo de negocio, no del canal" },
-  { title: "Estrategia + ejecución", description: "Pensar y hacer son parte del mismo trabajo" },
-  { title: "Sistemas sobre improvisación", description: "Diseñamos procesos repetibles que aumentan la capacidad" },
-  { title: "Tecnología como palanca", description: "Usamos tecnología cuando genera capacidad real" },
-  { title: "Optimización continua", description: "Medimos, aprendemos y mejoramos en lugar de asumir" },
+  { title: "Hacemos", description: "No nos limitamos a recomendar. Ejecutamos la actividad comercial y aprendemos de lo que ocurre." },
+  { title: "Medimos", description: "Buscamos datos y resultados para evaluar qué está pasando y tomar mejores decisiones." },
+  { title: "Aprendemos", description: "La metodología surge de la experiencia, la experimentación, los resultados y la documentación." },
+  { title: "Sistematizamos", description: "Convertimos conocimiento comercial en procesos aplicables y repetibles." },
+  { title: "Formamos", description: "El conocimiento comercial puede convertirse en capacidad en personas y equipos." },
 ];
 
-export const serviceGroups = [
+export const serviceDetails = [
   {
-    title: "Adquisición",
-    outcome: "Más oportunidades comerciales calificadas",
-    items: ["Generación de leads", "Prospección", "Outbound", "Inbound", "Canales de adquisición", "Campañas comerciales"],
+    title: "Vender",
+    headline: "Vendemos tu producto por vos",
+    description: "Fomura trabaja comercialmente con productos y servicios de terceros, genera clientes para sus clientes y cobra una comisión por las ventas generadas.",
+    items: salesActivities,
+    model: "Comisión por las ventas generadas",
   },
   {
-    title: "Ventas",
-    outcome: "Más claridad y conversión en cada etapa",
-    items: ["Procesos de ventas", "Calificación", "Seguimiento", "Pipeline", "CRM", "Activos comerciales"],
+    title: "Sistematizar",
+    headline: "Mejoramos tus sistemas comerciales",
+    description: "Ordenamos la actividad comercial para desarrollar una capacidad más estructurada, medible, repetible y mejorable.",
+    items: ["Diagnóstico", "Diseño de procesos", "CRM", "Automatización", "Documentación", "Métricas", "Optimización"],
+    model: "La tecnología como medio para aumentar capacidad y eficiencia",
   },
   {
-    title: "Sistemas",
-    outcome: "Más capacidad para operar y escalar",
-    items: ["CRM", "Automatización", "Dashboards", "Integraciones", "Workflows comerciales", "Sistemas de datos"],
-  },
-  {
-    title: "Desarrollo comercial",
-    outcome: "Nuevos caminos para crecer",
-    items: ["Desarrollo de negocios", "Alianzas", "Nuevos canales", "Oportunidades de mercado", "Expansión"],
+    title: "Formar",
+    headline: "Capacitamos y formamos en ventas",
+    description: "Desarrollamos personas y equipos capaces de vender de forma profesional, con conocimiento, práctica y feedback.",
+    items: ["Formación de vendedores", "Equipos comerciales", "Habilidades de venta", "Práctica", "Feedback", "Desarrollo profesional"],
+    model: "Para empresas y para personas",
   },
 ];
